@@ -1,0 +1,97 @@
+body{ background-color:rgb(15, 8, 5);}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: linear-gradient(rgb(14, 7, 7), rgb(58, 27, 21), rgb(124, 116, 68));
+    
+}
+header{
+    background-image: url(arkaplan.jpg);
+    min-width: 100%;
+    display: flex;
+    min-height: max-content;
+}
+div{
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+}
+ img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border-style: groove;
+    box-sizing: border-box;
+    border-color: darkgoldenrod;
+    padding: auto;
+    margin-left: 30px;
+    flex-basis: 100%;
+    flex: 100%;
+ } 
+  #elbise-img{
+    align-self:baseline
+ }
+ p{
+    align-self: flex-start;
+    flex: 4;
+    align-content: stretch;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 500;
+    margin-right: 0;
+    margin-left: 60px;
+    border-style: groove;
+    border-radius: 15px 50px;
+    border-color: chocolate;
+    padding: 20px;
+    color: coral;
+
+ }
+ nav a,
+ button
+ {
+    color: chocolate;
+    background-color: rgb(26, 9, 3);
+    width: 100½;
+    height: auto;
+    text-align: left;
+    margin-left: 120px;
+    border-radius: 50px 70px;
+    border-color: rgb(26, 9, 3);
+    border-style: inset;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+ }
+ a.elbise{
+    color: darkorange;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold; 
+    margin-right: 500px;
+   text-decoration-line: underline;
+   text-decoration-style: wavy;
+   box-sizing: border-box;
+   margin-left: 30px;
+ }
+
+  b ,nav a:hover {
+    font-size: large;
+    color: gold;
+    padding: 5px; 
+    text-align: left;
+    
+  }
+ 
+ h1{
+    color: rgb(235, 204, 101);
+    margin-left: 680px;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+ 
+  
